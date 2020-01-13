@@ -11,3 +11,15 @@
 #search-input{
     width: 80%;
 }
+
+#video-section{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 70%;
+}
+
+#videInfo{
+     /* text-align: center; */
+     padding-left:30px;
+     padding-top: 5px;
+}
