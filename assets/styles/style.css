@@ -20,6 +20,23 @@
 
 #videInfo{
      /* text-align: center; */
-     padding-left:30px;
+     /* padding-left:30px; */
      padding-top: 5px;
+}
+
+#info{
+    padding-left:30px;  
+}
+
+#channel-name{
+    float: left;
+    margin-top: -18px;
+}
+
+#subscribe-button{
+    float: left;
+}
+
+#channel-info-sec2{
+    display: inline-block;
 }
