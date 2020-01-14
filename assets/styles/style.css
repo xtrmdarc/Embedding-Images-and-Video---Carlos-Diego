@@ -32,7 +32,8 @@
 #video-section{
     margin-top: 15px;
     margin-left: 15px;
-    width: 70%;
+    /* width: 70%; */
+    flex-grow: 3;
 }
 
 #videInfo{
@@ -83,4 +84,52 @@
     margin: 0px; 
     padding: 0px; 
     border-color: white; 
+}
+
+#recommended-videos-section
+{
+    margin-top: 10px;
+    flex-grow: 6;
+}
+
+#recVideoHdr
+{
+    margin-bottom: 14px;
+}
+
+#recVideoImgHdr
+{
+    float: right;
+}
+
+.recVideoInfo
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+
+.recVideoInfo span
+{
+    display: block;
+}
+
+.recVideoInfoWrapper
+{
+    display: inline;
+    margin-left: 10px;
+}
+
+.recommended-video{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(145, 145, 145, 0.733);
+}
+
+.recVideoTitle
+{
+    max-width: 250px;
 }
