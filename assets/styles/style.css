@@ -64,3 +64,16 @@
 #views-div{
     flex-grow: 1;
 }
+
+.recVideothumnail{
+    height:94px;width:168px;
+    font-size:100%;
+    background-color: transparent; 
+    position:relative;
+    top:0px;
+    border-width: 0px; 
+    border-style: none; 
+    margin: 0px; 
+    padding: 0px; 
+    border-color: white; 
+}
