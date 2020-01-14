@@ -47,6 +47,20 @@
     float: left;
 }
 
+#Channel-Info{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
 #channel-info-sec2{
     display: inline-block;
+}
+
+#channel-wrap{
+    flex-grow: 2;
+}
+
+#views-div{
+    flex-grow: 1;
 }
