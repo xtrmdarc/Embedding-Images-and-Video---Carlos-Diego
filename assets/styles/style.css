@@ -1,3 +1,23 @@
+html
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: rgba(226, 226, 226, 0.911);
+    margin: 0px;
+}
+
+section{
+    /* background-color: white; */
+}
+header
+{
+    background-color: white;
+}
+
 #header *{
     padding-left: 10px;
     padding-right: 10px;
@@ -44,6 +64,9 @@
 
 #info{
     padding-left:30px;  
+    background-color: white;
+    margin-right: 15px;
+    margin-top: 8px;
 }
 
 #channel-name{
@@ -59,6 +82,9 @@
     display: flex;
     align-items: baseline;
     flex-direction: row;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.521);
 }
 
 #channel-info-sec2{
@@ -88,12 +114,16 @@
 
 #recommended-videos-section
 {
-    margin-top: 10px;
+    margin-top: 15px;
     flex-grow: 6;
+    background-color: white;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 #recVideoHdr
-{
+{   
+    margin-top: 8px;
     margin-bottom: 14px;
 }
 
@@ -149,6 +179,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 15px;
 }
 
 #vidActionsLeft{
@@ -186,4 +217,29 @@
     margin-right:6px;
     background-position: -151px -725px; 
     background-repeat: no-repeat;
+}
+
+#videoDescriptionSection
+{
+    margin-top: 30px;
+}
+
+#videoDescription{
+    max-width: 700px;
+    margin: 0px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid  rgba(138, 138, 138, 0.521);
+}
+
+#showMoreDescription
+{
+    margin-top:7px;
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.actionBtnClass{
+    border: none;
 }
