@@ -10,28 +10,261 @@
 <body>
 
     <header id="header">
-
-        <img src="assets/img/burguer-menu.png" alt="sidebar-burguer-menu" height="40px">
-        <img src="assets/img/youtube-logo.png" alt="youtube-logo-retro" height="40px">
-
-        <form id="search-form" >
-            <input id="search-input" type="text"  placeholder="Search" />
-            <input type="submit" />
-        </form>
-
-        <img src="assets/img/upload-icon.png" alt="upload-icon" height="40px">
-
-        <button>Sign in</button>
-
+        <nav id="NavigationBar">
+                <div id="leftNav">
+                        <img src="assets/img/burguer-menu.png" alt="sidebar burguer menu" height="40">
+                        <img src="assets/img/youtube-logo.png" alt="youtube logo retro" height="40" width="120">
+                </div>
+                
+                <form id="search-form" >
+                                <input id="search-input" type="text"  placeholder="Search" />
+                                <button type="submit" >Search</button>
+                </form>
+                
+                <div id="rightNav">
+                        <img src="assets/img/upload-icon.png" alt="upload icon" height="25">
+                        <img src="assets/img/btnPublishVideo.png" alt="publish video icon" height="25">
+                        <img src="assets/img/btnYoutubeApps.png" alt="youtube apps icon" height="25">
+                        <img src="assets/img/btnAvatar.png" alt="avatar icon" height="25">
+                </div>
+                                
+        </nav>
     </header>
 
-    <section id="video-section">
+    <div id="mainWrapper">
+            <section id="video-section">
+                    <div id="videoWrapper" >
+                        <iframe id="youtubeVideoIfrm" src="https://www.youtube.com/embed/sr_yVhfBXX4" 
+                        width="750" height="420" allowfullscreen  ></iframe>
+                    </div>
+                    
+                    <div id="info">
+                        <div id="videInfo">
+                            <h1 id="title">Contributing to Open Source Part I: The Easy Way</h1>
+                        </div>
+                        <div id="Channel-Info">
+        
+                            <div id="channel-wrap">
+                                <img id="initial" src="assets/img/InitialSQR.gif" alt="initial sqr">
+                                <div id="channel-info-sec2" >
+                                    <span id="channel-name">The Odin Project</span>
+                                    <div id="subscribe-button">
+                                        <button id="subscribe-btn" ><img src="assets/img/sbscribeBtn.gif" alt="subscribe button" ></button>    
+                                        <span>799</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="views-div" >
+                                <span>50,016 views</span>
+                            </div>
+                            
+                        </div>
 
-    </section>
+                        <div id="videoActions">
+                            <div id="vidActionsLeft">
+                                    <button id="btnAdd" class="actionBtnClass">
+                                            <img id="btnAddImg" class="btnImgClass" src="assets/img/btnAdd.png" alt="add image button" >
+                                            <span class="btnText">Add to</span>
+                                    </button>
+                                    <button id="btnShare" class="actionBtnClass">
+                                                <img id="btnShareImg" class="btnImgClass" src="assets/img/btnShare.png" alt="share image button">
+                                                <span class="btnText">Share</span>
+                                    </button>
+                                    <button id="btMore" class="actionBtnClass">
+                                                <img id="btnMoreImg" class="btnImgClass" src="assets/img/btnMore.png" alt="more image button" >
+                                                <span class="btnText">More</span>
+                                    </button>   
+                            </div>
+                            <div id="vidActionRight">
+                                    <button id="btnThumUp" class="actionBtnClass">
+                                            <img id="btnThumUpImg" class="btnImgClass" src="assets/img/btnThumpUp.png" alt="thumbs up image button">
+                                            <span class="btnText">359</span>
+                                    </button>
+                                    <button id="btnThumDown" class="actionBtnClass">
+                                            <img id="btnThumDownImg" class="btnImgClass" src="assets/img/btnThumDown.png" alt="thumbs down image button">
+                                            <span class="btnText">15</span>
+                                    </button>
+                            </div>
+                            
+                        </div>
 
-    <section id="recommended-videos-section">
+                        <div id="videoDescriptionSection"> 
+                            <span id="videoPublishDate" > <b> Published on Feb 27, 2014</b></span>
+                            <p id="videoDescription" >
+                                How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.  
+                            </p>
+                            <p id="showMoreDescription" >SHOW MORE</p>
+                        </div>
+        
+        
+                    </div>
+                    
+            </section>
+        
+            <aside id="recommended-videos-section">
+                <div id="recVideoHdr">
+                        <span>Up Next</span>
+                        <img id="recVideoImgHdr" src="assets/img/upNextAutoplay.png" alt="recommended video header" >
+                </div>      
+                <div class="recommended-video">
+                    
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail">
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="recommended-video">
+                    
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail" >
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
 
-    </section>
+                <div class="recommended-video">
+                    
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail">
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="recommended-video">
+                    
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail">
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="recommended-video">
+                
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail">
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="recommended-video">
+                    
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail">
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="recommended-video">
+                    
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail">
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="recommended-video">
+                    
+                    <img class="recVideothumnail" src="https://archive.ph/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802" alt="recommended video thumbnail">
+                    <div class="recVideoInfoWrapper">
+                        <div class="recVideoInfo">
+                                
+                            <span class="recVideoTitle">
+                                Contributing to Open Source Part II: The Real Way
+                            </span>
+                            <span class="recVideoChName">
+                                The Odin Project
+                            </span>
+                            <span class="recVideoViews">
+                                29,985 views    
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </aside>
+            
+    </div>
+
 
     <footer id="footer">
 
