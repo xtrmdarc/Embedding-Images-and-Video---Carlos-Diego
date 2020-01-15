@@ -49,9 +49,19 @@ header
     align-items: flex-start;
 }
 
+#videoWrapper{
+    width: 100%;
+}
+
+#youtubeVideoIfrm
+{
+    width: 100%;
+}
+
 #video-section{
     margin-top: 15px;
     margin-left: 15px;
+    margin-right: 15px;
     /* width: 70%; */
     flex-grow: 3;
 }
@@ -65,13 +75,19 @@ header
 #info{
     padding-left:30px;  
     background-color: white;
-    margin-right: 15px;
+    max-width: 100%;
     margin-top: 8px;
+}
+
+#subscribe-btn{
+    border: none;
+    padding: 0px;
 }
 
 #channel-name{
     float: left;
     margin-top: -18px;
+    font-size: 15px;
 }
 
 #subscribe-button{
@@ -97,6 +113,10 @@ header
 
 #views-div{
     flex-grow: 1;
+    text-align: right;
+    font-size: 19px;
+    color: gray;
+    border-bottom: 1px solid blue;
 }
 
 .recVideothumnail{
@@ -188,6 +208,8 @@ header
 
 #vidActionRight{
     flex-grow: 1;
+    text-align: right;
+    margin-right: 15px;
 }
 
 #btnAddImg{
@@ -242,4 +264,14 @@ header
 
 .actionBtnClass{
     border: none;
+}
+
+.recVideoTitle
+{
+    color: black;
+}
+
+.recVideoChName, .recVideoViews{
+    color: gray;
+    font-size: 12px;
 }
