@@ -55,7 +55,7 @@ header
 #youtubeVideoIfrm
 {
     width: 100%;
-    border: none;
+    /* border: none; */
 }
 
 #video-section{
